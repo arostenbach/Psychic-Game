@@ -18,6 +18,7 @@ window.onload = function() {
 //Game
 document.onkeyup = function(event) {
     var playerGuess = event.key;
+    console.log(playerGuess)
     lettersGuessed.push(playerGuess);
     console.log(computerGuess[0]);
 }
